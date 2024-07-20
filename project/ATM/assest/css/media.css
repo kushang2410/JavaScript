@@ -1,0 +1,57 @@
+@media (max-width: 1220px) {}
+
+@media (max-width:1024px) {
+    #atm-container {
+        width: 300px;
+    }
+    .col-sx-12{
+        width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
+    }
+}
+
+@media (max-width:768px) {
+    #atm-container {
+        width: 300px;
+    }
+    .col-sx-12{
+        width: 100%;
+    }
+}
+
+@media (max-width:425px) {
+    #atm-container {
+        width: 300px;
+    }
+    .col-sx-12{
+        width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
+    }
+}
+
+@media (max-width:375px) {
+    #atm-container {
+        width: 300px;
+    }
+    .col-sx-12{
+        width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
+    }
+}
+@media (max-width:320px) {
+    #atm-container {
+        width: 300px;
+    }
+    .col-sx-12{
+        width: 100%;
+    }
+    .user-pin{
+        margin-left: -11px;
+    }
+}

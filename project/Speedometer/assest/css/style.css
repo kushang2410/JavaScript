@@ -1,0 +1,47 @@
+      #speed-gauge {
+          position: relative;
+          left: 0;
+          top: 0;
+          right: 0;
+          width: 254px;
+          height: 254px;
+          bottom: 0;
+          margin: auto;
+          background-position: center;
+          background-image: url(../images/meter.png);
+          background-repeat: no-repeat;
+          background-size: cover;
+          border-radius: 50%;
+          z-index: 15;
+          overflow: hidden;
+          zoom: 145%;
+      }
+      .suiCircle {
+          height: 29px;
+          width: 29px;
+          border-radius: 50%;
+          background: #A01D26;
+          position: absolute;
+          top: 43%;
+          left: 44.5%;
+          border-style: dotted;
+          transform: rotate(-120deg);
+      }
+
+      #sui {
+          width: 6px;
+          height: 90px;
+          background: #AD191B;
+          border-left-style: inset;
+          border-left-color: #00BE27;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+          border-top-left-radius: 100%;
+          border-top-right-radius: 100%;
+          display: inline-block;
+          left: 49%;
+          position: absolute;
+          top: 14%;
+          transform-origin: bottom;
+          transform: rotate(-120deg);
+      }

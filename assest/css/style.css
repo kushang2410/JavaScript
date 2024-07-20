@@ -1,0 +1,132 @@
+body {
+    background-color: #0d1117;
+    color: #c9d1d9;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: #161b22;
+    border: none;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    color: #58a6ff;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.card-text {
+    color: #8b949e;
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tech-stack span {
+    background-color: #21262d;
+    color: #c9d1d9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 12px 12px 0 0;
+}
+
+.live-preview {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #58a6ff;
+    border: 1px solid #58a6ff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.live-preview:hover {
+    background-color: #58a6ff;
+    color: #161b22;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #21262d;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+}
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #30363d;
+}
+
+.project-info {
+    padding: 20px;
+}
+
+.project-title {
+    font-size: 1.5rem;
+    color: #58a6ff;
+    margin-bottom: 10px;
+}
+
+.project-desc {
+    color: #8b949e;
+    margin-bottom: 15px;
+}
+
+.tech-stack {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tech-stack span {
+    background-color: #30363d;
+    color: #c9d1d9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+}
+
+.live-preview {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #58a6ff;
+    border: 1px solid #58a6ff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.live-preview:hover {
+    background-color: #58a6ff;
+    color: #0d1117;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assest/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="project/weather/assest/css/style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="weather__header">
+      <div class="row">
+        <div class="col-md-6">
+          <select id="stateSelect" class="form-select mb-3" aria-label="Select State">
+            <option value="">Select State</option>
+          </select>
+        </div>
+        <div class="col-md-6">
+          <select id="citySelect" class="form-select mb-3" aria-label="Select City">
+            <option value="">Select City</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div id="weatherInfo" class="">
+        <h2 class="text-center mt-5 fw-bold text-uppercase font-monospace"></h2>
+        <p class="text-center mt-4">Temperature:</p>
+        <img src="project/weather/assest/images/cloud.png" height="120px" width="120px" alt="" class="d-flex align-items-center m-auto">
+        <p class="text-center"> 0°C</p>
+        <p class="text-center">Weather :</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="project/weather/assest/js/main.js"></script>
+<script src="assest/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>

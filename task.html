@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="assest/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="project/task/assest/css/style.css">
+  <link rel="stylesheet" href="project/task/assest/css/media.css">
+  <title>Product Management</title>
+</head>
+
+<body>
+  <header class="p-3 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <h1>Task Management System</h1>
+        <div class="input-group mb-3 col-3">
+          <input type="text" id="searchInput" class="form-control w-50 fw-bold" placeholder="Search Task Title">
+          <button class="btn border border-1 fw-wg text-white text-secondary" type="button" onclick="searchTask()">Search</button>
+          <button class="btn border border-1 fw-wg text-white text-secondary" type="button" onclick="clearSearch()">Clear Search</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container-cutom mt-4">
+    <div class="row">
+      <div class="col-sm-12 col-lg-4">
+        <form id="taskForm">
+          <div class="mb-3">
+            <label for="title" class="form-label fw-bold text-uppercase">Title</label>
+            <input type="text" class="form-control fw-bold" id="title" required placeholder="Enter the Title">
+          </div>
+          <div class="mb-3">
+            <label for="description" class="form-label fw-bold text-uppercase">Description</label>
+            <textarea class="form-control fw-bold" id="description" rows="3" required
+              placeholder="Enter the Description"></textarea>
+          </div>
+          <div class="mb-3">
+            <label for="dueDate" class="form-label fw-bold text-uppercase">Due Date</label>
+            <input type="date" class="form-control fw-bold text-secondary" id="dueDate" required>
+          </div>
+          <div class="mb-3">
+            <label for="priority" class="form-label fw-bold text-uppercase">Priority</label>
+            <select class="form-select text-secondary fw-bold" id="priority" required>
+              <option value="low" class="fw-bold">Low</option>
+              <option value="medium" class="fw-bold">Medium</option>
+              <option value="high" class="fw-bold">High</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary fw-bold">Add Task</button>
+        </form>
+      </div>
+      <div class="col-sm-12 col-lg-8">
+        <div id="taskList" class="d-flex flex-wrap"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+<script src="project/task/assest/js/main.js"></script>
+<script src="assest/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</html>
