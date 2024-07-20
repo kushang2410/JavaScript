@@ -1,0 +1,29 @@
+.task-title-searched {
+    color: black;
+}
+
+.container-cutom {
+    margin: auto;
+    max-width: 1630px;
+}
+
+.col-3 {
+    width: 30% !important;
+}
+
+.row {
+    justify-content: space-evenly !important;
+    flex-wrap: nowrap !important;
+}
+.fw-wg{
+    font-weight: 400 !important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: 0 !important;
+}

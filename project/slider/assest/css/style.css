@@ -1,0 +1,45 @@
+#slider-container {
+  position: relative;
+  width: 90%;
+  height: 90%;
+  margin: 20px auto;
+  overflow: hidden;
+  margin-top: 3%;
+}
+
+#imageslider {
+  display: flex;
+  transition: 0.5s ease-in-out;
+}
+.slider-image {
+  width: 100%;
+  height: auto;
+}
+
+#prev-btn,
+#next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+}
+#prev-btn {
+  left: 0;
+}
+
+#next-btn {
+  right: 0;
+}
+
+.body-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
