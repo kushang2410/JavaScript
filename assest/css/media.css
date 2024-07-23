@@ -1,0 +1,30 @@
+/* @media (max-width: 1220px) {}
+
+@media (max-width:1024px) {
+    .col-smx-12{
+        width: 100%;
+    }
+} */
+
+/* @media (max-width:768px) {
+    .col-smx-12{
+        width: 100%;
+    }
+} */
+
+@media (max-width:425px) {
+    .col-smx-12{
+        width: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .col-smx-12{
+        width: 100%;
+    }
+}
+@media (max-width:320px) {
+    .col-smx-12{
+        width: 100%;
+    }
+}
